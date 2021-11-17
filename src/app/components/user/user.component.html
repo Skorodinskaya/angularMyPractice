@@ -1,2 +1,4 @@
-<p>{{user.name}} - {{user.email}}</p>
-<app-posts [id]="user.id"></app-posts>
+<div>
+  <p>{{user.name}} - {{user.email}}</p>
+  <button [routerLink]="[user.id]">details</button>
+</div>
